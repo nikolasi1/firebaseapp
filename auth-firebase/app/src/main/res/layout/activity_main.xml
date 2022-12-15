@@ -4,16 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#181719"
     tools:context=".MainActivity">
-
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="-300dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="320dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,27 +22,28 @@
             android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="#8F8B8B"
-            android:inputType="textEmailAddress"
-            android:hint="E-mail" />
+            android:backgroundTint="#00000000"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
 
         <EditText
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="#8F8B8B"
-            android:layout_marginTop="10dp"
-            android:inputType="textPassword"
-            android:hint="Password" />
+
+            android:backgroundTint="#00000000"
+            android:hint="Password"
+            android:inputType="textPassword" />
 
         <Button
-            android:onClick="authFun"
             android:id="@+id/button"
-            android:textStyle="normal"
-            android:layout_marginTop="40dp"
-            android:backgroundTint="#2195F2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Create" />
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="#2196F3"
+            android:onClick="inputFunction"
+            android:text="მომხმარებლის შექმნა" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
