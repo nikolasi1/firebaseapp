@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "794231968102",
-    "project_id": "my-application-13729",
-    "storage_bucket": "my-application-13729.appspot.com"
+    "project_number": "488460974899",
+    "project_id": "kacitamapatie",
+    "storage_bucket": "kacitamapatie.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:794231968102:android:e7c4bde051f161f0d4b8a7",
+        "mobilesdk_app_id": "1:488460974899:android:6ffd0d369531ea61fe1c46",
         "android_client_info": {
-          "package_name": "com.example.myapp321"
+          "package_name": "com.example.kacitamapatie"
         }
       },
       "oauth_client": [
         {
-          "client_id": "794231968102-epgdfglc1uue26bj9v2ceb3sfvacieud.apps.googleusercontent.com",
+          "client_id": "488460974899-ibb53jb8t29u2llr30tlck2s5vj8padh.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAShoPaPG2ey-kCcZRpcA5-GfXNDdTuymI"
+          "current_key": "AIzaSyDpavshONsgfSWgH9TTRthBLPNwrQKV8hY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "794231968102-epgdfglc1uue26bj9v2ceb3sfvacieud.apps.googleusercontent.com",
+              "client_id": "488460974899-ibb53jb8t29u2llr30tlck2s5vj8padh.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
